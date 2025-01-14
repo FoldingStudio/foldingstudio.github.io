@@ -225,7 +225,7 @@ header.visible {
 .logo {
     display: block;
     width: 3rem;
-    height: 3rem;
+    height: auto;
     margin: 0 auto; /* Aggiunto per centrare il logo */
 }
 
@@ -390,13 +390,7 @@ header.visible {
         padding: 0 0.5rem;
     }
 
-    .header-content img{
-        width: 60%; /* Aumentato da 50% a 60% */
-        height: auto;
-        flex-direction: row;
-        align-items: center;
-        padding: 0 0.5rem;
-    }
+    
 
   header img {  
     width: 50%;
@@ -416,8 +410,9 @@ header.visible {
         font-size: 0.7rem;
     }
     .logo {
-        width: 6rem; /* Aumentato da 5rem a 6rem */
+        width: 40vw; /* Aumentato da 5rem a 6rem */
         height: auto;
+        max-width: 100%;
     }
 
 
